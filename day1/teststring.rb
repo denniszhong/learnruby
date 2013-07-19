@@ -1,5 +1,6 @@
 puts "Hello Word"
 
+=begin
  s1 = 'Single quoted'
  s2 = "Double quoted"
  puts s1, s2
@@ -17,13 +18,16 @@ puts "Hello Word"
  s5 = 'Hello #{name}'
  s6 = "Hello #{name}"
  puts s5, s6
+=end
 
 
 
-# Find subscript of string "Ruby." from string "Ruby.Hello dennis"
+# Find subscript/index of string "Ruby." from string "Hello, Ruby."
 str_hello_ruby = "Hello, Ruby."
 str_ruby = "Ruby."
-puts "index of '" + str_ruby + "' in '" + str_hello_ruby + "' is "
-#puts str_hello_ruby
+my_index = str_hello_ruby.index(str_ruby) 
+puts "index of '" + str_ruby + "' in '" + str_hello_ruby + "' is: " + my_index.to_s 
+
+
 
 
