@@ -1,9 +1,5 @@
 puts "Hello Word"
 
- # Find subscript of string "Ruby." from string "Ruby.Hello dennis"
- str_ruby = "ruby."
- puts str_ruby
-
  s1 = 'Single quoted'
  s2 = "Double quoted"
  puts s1, s2
@@ -21,3 +17,13 @@ puts "Hello Word"
  s5 = 'Hello #{name}'
  s6 = "Hello #{name}"
  puts s5, s6
+
+
+
+# Find subscript of string "Ruby." from string "Ruby.Hello dennis"
+str_hello_ruby = "Hello, Ruby."
+str_ruby = "Ruby."
+puts "index of '" + str_ruby + "' in '" + str_hello_ruby + "' is "
+#puts str_hello_ruby
+
+
