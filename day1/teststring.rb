@@ -29,5 +29,10 @@ my_index = str_hello_ruby.index(str_ruby)
 puts "index of '" + str_ruby + "' in '" + str_hello_ruby + "' is: " + my_index.to_s 
 
 
+# Homework: 
+# How to replace substring1q
+q
+
+
 
 
